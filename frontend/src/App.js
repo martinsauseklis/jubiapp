@@ -21,7 +21,7 @@ function App() {
   const [state, setState] = useState(initialState);
   useEffect(() => {
     const data = async () => {
-      const fetched = await fetch('http://localhost:8000');
+      const fetched = await fetch('http://localhost:54345');
       const result = await fetched.text();
       let json = JSON.parse(result);
       if (localStorage.getItem('prices')) {
@@ -50,8 +50,7 @@ function App() {
       
      
     }
-    data()
-    console.log('once')
+    data();
   }, [])
   
 

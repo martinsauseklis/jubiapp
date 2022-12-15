@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "author": "mauseklis",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1275.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "node-fetch2": "^1.6.3",

@@ -6,7 +6,7 @@ const fs = require('fs');
 const { fetcher } = require('./services/IntervalFetcher');
 
 const app = express();
-const port = 8000;
+const port = 54345;
 
 app.use(cors());
 
